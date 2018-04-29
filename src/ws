@@ -1,0 +1,28 @@
+initialState={
+    orders:[],
+    order:[{name:'',quantity:1}]
+        
+    },
+    name:'',
+    address:'',
+    phoneNumber:'',
+    amount:0
+}
+
+orders will look like this...
+orders:[
+    {
+        orderId:randomNumber,
+        finalOrder:order,
+        name,
+        address,
+        phoneNumber,
+        amount
+    }
+]
+
+actions={
+    addOrder (this will be fired when orderItem is clicked),
+    addInfo (Info component action that will be dispatched when order details are entered),
+    grabOrders (Admin page action which will be fired when order is placed)
+}
